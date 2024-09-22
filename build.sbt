@@ -8,7 +8,7 @@ lazy val root = (project in file(".")).enablePlugins(GraalVMNativeImagePlugin)
     name := "DinoChrome",
     idePackagePrefix := Some("dev.v1mkss.chrome.dino"),
     libraryDependencies += "org.scalafx" %% "scalafx" % "22.0.0-R33",
-    graalVMNativeImageCommand := "REPLACE_ME",
+ //   graalVMNativeImageCommand := "REPLACE_ME",
 
   )
 
